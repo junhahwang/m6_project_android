@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.androidtown.snaps1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".JoinSystem" />
+        <activity android:name=".PhotographerList" />
+        <activity android:name=".PhotoType" />
+        <activity android:name=".SelectPhotographer" />
+        <activity android:name=".Fragment1" />
+        <activity android:name=".Fragment2" />
+        <activity android:name=".Fragment3" />
+    </application>
+
+</manifest>
