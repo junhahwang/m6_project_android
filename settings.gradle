@@ -1,0 +1,2 @@
+include ':app', ':netty-all-4.1.6.Final'
+project(':netty-all-4.1.6.Final').projectDir = new File('libs/netty-all-4.1.6.Final')
